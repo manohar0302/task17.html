@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Platform</title>
+    <link rel="stylesheet" href="style17.css">
+  
+</head>
+<body>
+    <div class="discussion-container">
+        <div class="post">
+            <div class="post-content">
+                <h1>Discussion Forum</h1>
+                <h3>Importance of Education:</h3>
+                <p>"Education means studying in order to obtain a deeper knowledge and understanding of a variety of subjects to be applied to daily life. Education is not limited to just knowledge from books, but can also be obtained through practical experiences outside of the classroom."</p>
+            </div>
+            <button class="like-btn" onclick="toggleLike(this)">Like</button>
+            <div class="comment-section">
+                <div class="comment">
+                    <p><strong>Ramesh:</strong> I agree with the post!</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Suresh:</strong> Interesting discussion!</p>
+                </div>
+                <!-- Add more comments as needed -->
+            </div>
+            <input type="text" class="name-input" id="user-name" placeholder="Your Name">
+            <input type="text" class="comment-input" id="new-comment" placeholder="Add a comment...">
+            <button class="add-comment-btn" onclick="addComment()">Add Comment</button>
+        </div>
+    </div>
+    <script src="javascript17.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
